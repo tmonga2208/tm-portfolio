@@ -154,7 +154,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://stm-five.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -164,6 +164,31 @@ export const DATA = {
         },
       ],
       image: "/stm.png",
+      video: "",
+    },
+    {
+      title: "SubPIP",
+      href: "https://subpip.vercel.app",
+      dates: "Jan 2025",
+      active: true,
+      description:
+        "Watch videos with a floating window that stays on top of other applications, complete with playback controls and seamlessly integrated subtitles for a superior viewing experience.",
+      technologies: [
+        "Javascript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://subpip.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/tmonga2208/Subpip",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/subpip.png",
       video: "",
     },
   ],
