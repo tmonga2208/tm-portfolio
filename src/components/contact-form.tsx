@@ -1,11 +1,10 @@
 "use client";
-
 import { useState } from "react";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Button } from "@/components/ui/button";
-import emailjs from 'emailjs-com';
+import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
